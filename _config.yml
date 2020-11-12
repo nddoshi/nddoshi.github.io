@@ -13,11 +13,11 @@ author: Neel Doshi
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  About Me: "aboutme"
+navbar-links:  
   Research: "resarch"
   Publications: "publications"
   CV: "cv"
+  About Me: "aboutme"
   # Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
@@ -63,7 +63,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  google-scholar: "https://scholar.google.com/citations?hl=en&user=uqiyHgYAAAAJ"
+  google-scholar: nddoshi9
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
