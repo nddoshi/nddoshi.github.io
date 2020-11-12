@@ -13,7 +13,8 @@ author: Neel Doshi
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:  
+navbar-links:
+  Home: "home"
   Research: "resarch"
   Publications: "publications"
   CV: "cv"
@@ -63,7 +64,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  google-scholar: nddoshi9
+  google-scholar: https://scholar.google.com/citations?hl=en&user=uqiyHgYAAAAJ
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
@@ -80,7 +81,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "NeelDoshi.com"
+# url-pretty: "NeelDoshi.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -92,7 +93,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "robotic manipulation,legged robots, microrobots, Harvard, MIT,neel doshi,"
 
 # --- Colours / background image --- #
 
