@@ -1,4 +1,4 @@
 ---
 layout: default
-title: Publicatons
+title: Research
 ---
