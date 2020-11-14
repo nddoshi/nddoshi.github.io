@@ -5,7 +5,7 @@ layout: page
 <!-- subtitle: -->
 ---
 
-<p style="text-align: center;"> Neel Doshi </p> 
+<p style="text-align: center;"> <h3>Neel Doshi</h3></p> 
 
 ![headshot](/assets/img/photo_whitebkgndpc.jpg)
 
@@ -16,6 +16,6 @@ I completed my doctoral work with Professors [Robert Wood](https://www.micro.sea
 Please email me at <nddoshi (at) mit (dot) edu> if you have any questions. 
 
 
-<p style="text-align: center;"> And checkout my [research](research) </p> 
+<p style="text-align: center;"> <h4> And checkout my <a href="https://neeld.github.io/research/">research!</a>  <h/4> </p> 
 
 
