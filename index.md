@@ -1,8 +1,7 @@
 ---
 layout: page
 # title: Neel Doshi's Personal Page
-# use-site-title: false
-<!-- subtitle: -->
+# <!-- subtitle: -->
 ---
 
 <h2 style="text-align:center;">Neel Doshi</h2>
