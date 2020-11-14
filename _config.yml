@@ -14,9 +14,10 @@ author: Neel Doshi
 # --- List of links in the navigation bar --- #
 
 navbar-links:  
+  Home: "index"
   Research: "research"
-  Publications: "publications"
-  CV: "cv"
+  Publications: "https://scholar.google.com/citations?hl=en&user=uqiyHgYAAAAJ&view_op=list_works&sortby=pubdate"
+  CV: "http://mcube.mit.edu/pdfs/doshi_cv.pdf"
   About Me: "aboutme"
   # Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
