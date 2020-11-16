@@ -5,10 +5,12 @@ title: Research
 ---
 ## Research 
 
-My research is broadly focused on developing technologies that allow robots to make purposeful and reliable contact with the world. Within this area I work both on developing algorithms for model-based planning and control and on robot (end-effector) design. Moreover, 
-<!-- ########################## Entry 0 ############################# -->
+My research is broadly focused on developing technologies that allow robots to make purposeful and reliable contact with the world. Within this area I work both on developing algorithms for model-based planning and control and the design of robot end-effectors (e.g., robot hands and feet). Moreover, I study contact in the context of both robot locomotion and manipulation and for robots of various sizes! 
 
-<h2 style="text-align:center;"> Planning and control of manipulation primitives </h2>
+<!-- ########################## Entry 0 ############################# -->
+--- 
+
+<h3 style="text-align:center;"> Planning and control of manipulation primitives </h3>
 
 blah blah blah blah 
 
@@ -18,10 +20,10 @@ IROS 2021: Workshop: [Abstract](), [[Video]]() <br>
 IROS 2021: Workshop: [Abstract]() <br> 
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
-  <!-- ########################## Entry 1 ############################# -->
+<!-- ########################## Entry 1 ############################# -->
 ---
 
-<h2 style="text-align:center;"> Switchable adhesion for robot end-effectors </h2>
+<h3 style="text-align:center;"> Switchable adhesion for robot end-effectors </h3>
 
 One of the challenges 
 
@@ -35,7 +37,7 @@ Science 2018:  Climbing with a quadrupedal microrobot using electroadhesion. [[P
 <!-- ########################## Entry 2 ############################# -->
 ---
 
-<h2 style="text-align:center;"> Trajectory optimization for legged microrobots</h2>
+<h3 style="text-align:center;"> Trajectory optimization for legged microrobots</h3>
 
 blah blah blah blah 
 
@@ -47,7 +49,7 @@ RSS 2018: Contact-implicit trajectory optimization for a quadrupedal microrobot.
 <!-- ########################## Entry 3 ############################# -->
 ---
 
-<h2 style="text-align:center;"> Computationally efficient control for legged microrobots </h2>
+<h3 style="text-align:center;"> Computationally efficient control for legged microrobots </h3>
 
 blah blah blah blah 
 
@@ -59,7 +61,7 @@ ICRA 2017: Phase control for a legged microrobot operating at resonance. [[Publi
 <!-- ########################## Entry 3 ############################# -->
 ---
 
-<h2 style="text-align:center;"> Design of flexure-based microrobots </h2>
+<h3 style="text-align:center;"> Design of flexure-based microrobots </h3>
 
 blah blah blah blah 
 
