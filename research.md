@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: minimal
 title: Research
-classes: wide
+# classes: wide
 ---
 
 My research is broadly focused on developing technologies that allow robots to make purposeful and reliable contact with the world. Within this area I work both on developing algorithms for model-based planning and control and on robot (end-effector) design. Moreover, 
@@ -21,7 +21,7 @@ ICRA 2020: Hybrid Differential Dynamic Programming for Planar Manipulation Primi
 
 ### Switchable adhesion for robot end-effectors
 
-blah blah blah blah 
+One of the challenges 
 
 #### Relevant Work  
 
