@@ -19,6 +19,7 @@ IROS 2021: Workshop: [Abstract]() <br>
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
   <!-- ########################## Entry 1 ############################# -->
+---
 
 ### Switchable adhesion for robot end-effectors
 
@@ -32,6 +33,7 @@ Science 2018:  Climbing with a quadrupedal microrobot using electroadhesion. [[P
 
 
 <!-- ########################## Entry 2 ############################# -->
+---
 
 ### Trajectory optimization for legged microrobots
 
@@ -43,6 +45,7 @@ IJRR 2019: Contact-implicit trajectory optimization using variational integrator
 RSS 2018: Contact-implicit trajectory optimization for a quadrupedal microrobot. [[Publication]](http://www.roboticsproceedings.org/rss14/p41.pdf), [[Video]](https://www.youtube.com/watch?v=fg5MiyJ7dXw&ab_channel=HarvardAgileRoboticsLab) <br>
 
 <!-- ########################## Entry 3 ############################# -->
+---
 
 ### Computationally efficient control for legged microrobots
 
@@ -54,6 +57,7 @@ Bio&Bio 2019: Locomotion at multiple stride frequencies using proprioceptive fee
 ICRA 2017: Phase control for a legged microrobot operating at resonance. [[Publication]](https://ieeexplore.ieee.org/document/7989704) <br>
 
 <!-- ########################## Entry 3 ############################# -->
+---
 
 ### Design of flexure-based microrobots
 
