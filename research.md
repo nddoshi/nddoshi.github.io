@@ -12,12 +12,12 @@ My research is broadly focused on developing technologies that allow robots to m
 
 <h3 style="text-align:center;"> Planning and control of manipulation primitives </h3>
 
-blah blah blah blah 
+<img src="/assets/img/ilqr-primitives.pdf" alt="hddp!" align=left width="250" height="250" hspace="20"> 
 
 #### Relevant Work: 
 
-IROS 2021: Workshop: [Abstract](), [[Video]]() <br>
-IROS 2021: Workshop: [Abstract]() <br> 
+IROS 2021: Workshop: [Abstract](/assets/pdfs/Robotic_In_Situ_Workshop.pdf]), [[Video]](/assets/DoshiNeel_iLQR_Primitivesc) <br>
+IROS 2021: Workshop: [Abstract](/assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> 
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
 <!-- ########################## Entry 1 ############################# -->
@@ -31,8 +31,6 @@ One of the challenges
 
 IROS 2020: PnuGrip: An active two-phase gripper for dexterous manipulation. [[Publication]](http://ras.papercept.net/images/temp/IROS/files/1356.pdf), [[Video]]() <br>
 Science 2018:  Climbing with a quadrupedal microrobot using electroadhesion. [[Publication]](https://robotics.sciencemag.org/content/3/25/eaau3038), [[Video]](https://www.youtube.com/watch?v=hPqFJ_lwHjY&ab_channel=MicroroboticsLab) <br>
-
-
 
 <!-- ########################## Entry 2 ############################# -->
 ---
