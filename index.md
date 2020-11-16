@@ -8,9 +8,9 @@ layout: page
 
 <!-- ![headshot](/assets/img/photo_whitebkgndpc.jpg =10x10) -->
 <img src="/assets/img/photo_whitebkgndpc.jpg" alt="It's a headshot!" align=left width="250" height="250" hspace="20"> 
-I am an Intelligence Community (IC) Postdoctoral Fellow working with Professor [Alberto Rodriguez]((http://mcube.mit.edu/)) at MIT. My research is on developing model-based algorithms for planning and control of contact-rich robotic manipulation. I am interested in applying these algorithms to practical robotic manipulation problems, including flexible manufacturing for factory automation and on-orbit robotic assembly and satellite repair.
+I am an Intelligence Community (IC) Postdoctoral Fellow working with Professor [Alberto Rodriguez]((http://mcube.mit.edu/)) at MIT. My current research is on developing model-based algorithms for planning and control of contact-rich robotic manipulation. I also am interested in designing robot end-effectors that can simply planning and control and/or be used to 
 
-I completed my doctoral work with Professors [Robert Wood](https://www.micro.seas.harvard.edu/) and [Scott Kuindersma](https://agile.seas.harvard.edu/) at Harvard University in 2019. I used optimization to develop physics-based design, planning, and control tools for legged microrobots. These tools were applied to the Harvard Ambulatory Microrobot ([HAMR](https://vimeo.com/274138812)) to improve its performance and execute dynamic behaviors. 
+I completed my doctoral work with Professors [Robert Wood](https://www.micro.seas.harvard.edu/) and [Scott Kuindersma](https://agile.seas.harvard.edu/) at Harvard in 2019. I used optimization to develop physics-based design, planning, and control tools for legged microrobots. These tools were applied to the Harvard Ambulatory Microrobot ([HAMR](https://vimeo.com/274138812)) to improve its performance and execute dynamic behaviors. 
 
 Checkout my **[research]("https://neeld.github.io/research/")** and email me at <nddoshi (at) mit (dot) edu> if you have further questions. 
 
