@@ -12,12 +12,17 @@ My research is broadly focused on developing technologies that allow robots to m
 
 <h3 style="text-align:center;"> Planning and control of manipulation primitives </h3>
 
-<img src="/assets/img/ilqr-primitives.pdf" alt="hddp!" align=left width="250" height="250" hspace="20"> 
+<img src="/assets/img/ilqr-primitives.pdf" alt="hddp" align=left width="250" height="250" hspace="20"> 
+We are interested in developing a framework for closed-loop execution of contact-rich pose-to-pose manipulation tasks. Planning and control of these tasks is challenging as they are often hybrid, underactuated, and stochastic. Our long-term goal is to develop a framework that can plan a trajectory from any initial condition, recover from large perturbations, and re-plan the mode sequence in real-time (~20 Hz).
+
+Our current approach uses Differential Dynamic Programming (DDP) to plan a trajectory over a finite horizon, consider a small number of contact switches, and generate a stabilizing controller. Combining our approach with efficient mechanics representations enables planning of plan pose-to-pose trajectories from most initia configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. A key insight is that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations.
+
+Next steps include improving the speed and scalability (e.g., consider more hybrid switches) of our approach.
 
 #### Relevant Work: 
 
-IROS 2021: Workshop: [[Abstract]](./assets/pdfs/Robotic_In_Situ_Workshop.pdf), [[Video]](./assets/DoshiNeel_iLQR_Primitivesc.mp4) <br>
-IROS 2021: Workshop: [[Abstract]](./assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> 
+IROS 2021: Workshop: [[Abstract]](https://wvrtc.com/iros2020/contributed-abstracts/doshi.pdf), [[Video]](https://wvrtc.com/iros2020/contributed-abstracts.shtml#) <br>
+IROS 2021: Workshop: [[Abstract]](https://drive.google.com/file/d/1U4rOjIZ4KvS9X7MZOA6VnEBE9bek4FCR/view) <br> 
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
 <!-- ########################## Entry 1 ############################# -->
