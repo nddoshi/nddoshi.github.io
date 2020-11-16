@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+classes: wide
 ---
 
 My research is broadly focused on developing technologies that allow robots to make purposeful and reliable contact with the world. Within this area I work both on developing algorithms for model-based planning and control and on robot (end-effector) design. Moreover, 
@@ -8,13 +9,13 @@ My research is broadly focused on developing technologies that allow robots to m
 
 ### Planning and control of manipulation primitives
 
-    blah blah blah blah 
+blah blah blah blah 
 
 #### Relevant Work: 
 
 IROS 2021 Workshop: [Abstract](), [Video]() <br>
 IROS 2021 Workshop: [Abstract]() <br> 
-ICRA 2020: Hybrid Differential Dynamic Programming for Planar Manipulation Primitives [Publication](https://ieeexplore.ieee.org/document/9197414),  [Video](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
+ICRA 2020: Hybrid Differential Dynamic Programming for Planar Manipulation Primitives. [Publication](https://ieeexplore.ieee.org/document/9197414), [Video](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
   <!-- ########################## Entry 1 ############################# -->
 
@@ -60,7 +61,7 @@ blah blah blah blah
 #### Relevant Work  
 
 IROS 2015: Model driven design for flexure-based microrobots. [Publication](https://ieeexplore.ieee.org/document/7353959) <br>
-Science 2018: The milliDelta: a high-bandwidth, high-precision, millimeter-scale Delta robot. [Publications](https://robotics.sciencemag.org/content/3/14/eaar3018), [Video] (https://www.youtube.com/watch?v=rHUnqYDgUFY) <br>
+Science 2018: The milliDelta: a high-bandwidth, high-precision, millimeter-scale Delta robot. [Publications](https://robotics.sciencemag.org/content/3/14/eaar3018), [Video](https://www.youtube.com/watch?v=rHUnqYDgUFY) <br>
 
 
 
