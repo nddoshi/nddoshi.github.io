@@ -16,8 +16,8 @@ My research is broadly focused on developing technologies that allow robots to m
 
 #### Relevant Work: 
 
-IROS 2021: Workshop: ![[Abstract]](./assets/pdfs/Robotic_In_Situ_Workshop.pdf), ![[Video]](./assets/DoshiNeel_iLQR_Primitivesc.mp4) <br>
-IROS 2021: Workshop: ![[Abstract]](./assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> 
+IROS 2021: Workshop: [[Abstract]](./assets/pdfs/Robotic_In_Situ_Workshop.pdf), [[Video]](./assets/DoshiNeel_iLQR_Primitivesc.mp4) <br>
+IROS 2021: Workshop: [[Abstract]](./assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> 
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
 <!-- ########################## Entry 1 ############################# -->
