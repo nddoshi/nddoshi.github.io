@@ -21,8 +21,8 @@ Next steps include improving the speed and scalability (e.g., consider more hybr
 
 #### Relevant Work: 
 
-IROS 2021: Workshop: [[Abstract]](https://wvrtc.com/iros2020/contributed-abstracts/doshi.pdf), [[Video]](https://wvrtc.com/iros2020/contributed-abstracts.shtml#) <br>
-IROS 2021: Workshop: [[Abstract]](https://drive.google.com/file/d/1U4rOjIZ4KvS9X7MZOA6VnEBE9bek4FCR/view) <br> 
+IROS 2021: Workshop: Pivoting an unkown object about an environmental contact[[Abstract]](https://wvrtc.com/iros2020/contributed-abstracts/doshi.pdf), [[Video]](https://wvrtc.com/iros2020/contributed-abstracts.shtml#) <br>
+IROS 2021: Workshop: Hybrid iLQR for manipulation with fixed environmental contacts [[Abstract]](https://drive.google.com/file/d/1U4rOjIZ4KvS9X7MZOA6VnEBE9bek4FCR/view) <br> 
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
 <!-- ########################## Entry 1 ############################# -->
