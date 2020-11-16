@@ -3,7 +3,7 @@ layout: default
 title: Research
 # classes: wide
 ---
-## Research 
+<h2 style="text-align:center;"> Research </h2>
 
 My research is broadly focused on developing technologies that allow robots to make purposeful and reliable contact with the world. Within this area I work both on developing algorithms for model-based planning and control and the design of robot end-effectors (e.g., robot hands and feet). Moreover, I study contact in the context of both robot locomotion and manipulation and for robots of various sizes! 
 
@@ -16,8 +16,8 @@ My research is broadly focused on developing technologies that allow robots to m
 
 #### Relevant Work: 
 
-IROS 2021: Workshop: [Abstract](/assets/pdfs/Robotic_In_Situ_Workshop.pdf]), [[Video]](/assets/DoshiNeel_iLQR_Primitivesc) <br>
-IROS 2021: Workshop: [Abstract](/assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> 
+IROS 2021: Workshop: [[Abstract]]("/assets/pdfs/Robotic_In_Situ_Workshop.pdf"), [[Video]]("/assets/DoshiNeel_iLQR_Primitivesc.mp4") <br>
+IROS 2021: Workshop: [[Abstract]]("/assets/pdfs/Fail_to_Grasp_Workshop.pdf") <br> 
 ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
 
 <!-- ########################## Entry 1 ############################# -->
