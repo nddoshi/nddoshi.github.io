@@ -8,7 +8,7 @@ title: Research
 My research is broadly focused on developing technologies that allow robots to make purposeful and reliable contact with the world. Within this area I work both on developing algorithms for model-based planning and control and on robot (end-effector) design. Moreover, 
 <!-- ########################## Entry 0 ############################# -->
 
-### Planning and control of manipulation primitives
+<h2 style="text-align:center;"> Planning and control of manipulation primitives </h2>
 
 blah blah blah blah 
 
@@ -21,7 +21,7 @@ ICRA 2020: Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https:
   <!-- ########################## Entry 1 ############################# -->
 ---
 
-### Switchable adhesion for robot end-effectors
+<h2 style="text-align:center;"> Switchable adhesion for robot end-effectors </h2>
 
 One of the challenges 
 
@@ -35,7 +35,7 @@ Science 2018:  Climbing with a quadrupedal microrobot using electroadhesion. [[P
 <!-- ########################## Entry 2 ############################# -->
 ---
 
-### Trajectory optimization for legged microrobots
+<h2 style="text-align:center;"> Trajectory optimization for legged microrobots</h2>
 
 blah blah blah blah 
 
@@ -47,7 +47,7 @@ RSS 2018: Contact-implicit trajectory optimization for a quadrupedal microrobot.
 <!-- ########################## Entry 3 ############################# -->
 ---
 
-### Computationally efficient control for legged microrobots
+<h2 style="text-align:center;"> Computationally efficient control for legged microrobots </h2>
 
 blah blah blah blah 
 
@@ -59,7 +59,7 @@ ICRA 2017: Phase control for a legged microrobot operating at resonance. [[Publi
 <!-- ########################## Entry 3 ############################# -->
 ---
 
-### Design of flexure-based microrobots
+<h2 style="text-align:center;"> Design of flexure-based microrobots </h2>
 
 blah blah blah blah 
 
