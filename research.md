@@ -14,10 +14,10 @@ My research is broadly focused on developing technologies that allow robots to m
 
 We are developing a small set of closed-loop manipulation primitives that can be sequenced to achieve complex manipulations. Planning and control of these primitives is challenging as they are often hybrid, underactuated, and stochastic.
 
-<img src="/assets/img/hddp_primitives.png" alt="hddp" align=left width="310"> 
+<img src="/assets/img/hddp_primitives.png" alt="hddp" align=left width="300"> 
 **[ICRA 2020]** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations.
 
-<img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="202" > 
+<img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="203" > 
 <img src="/assets/img/PlanarPushingMinimal.png" alt="pushing" align=left width="200" hspace="20"> 
 **[IROS Workshop]** We are developing an novel approach, iterative linear-quadratic regulation with hybrid-variations (iLQR-HV), that generalizes HDDP to more complex manipulations primitive. We exploit the input affine structure of these primitives’ mechanics to enable efficient planning of motions that require several contact switches. We apply our approach to several well-known manipulation primitives, including grasping, pushing, pulling, and pivoting; finding that our algorithm can efficiently (in 1 to 6 seconds) plan pose-to-pose object manipulations with several contact switches.
 
