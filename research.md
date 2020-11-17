@@ -78,6 +78,8 @@ Next steps include improving the speed and scalability (e.g., consider more hybr
 ---
 
 <h3 style="text-align:center;"> Design of flexure-based microrobots </h3>
+
+<img src="/assets/img/Delta1.png" alt="hddp" align=left width="500" hspace="20"> 
 I am developing a framework for closed-loop execution of these hybrid manipulation primitives. Planning and control of these tasks is challenging as they are often hybrid, underactuated, and stochastic. Our long-term goal is to develop a framework that can plan a trajectory from any initial condition, recover from large perturbations, and re-plan the mode sequence in real-time (~20 Hz).
 
 Our current approach uses Differential Dynamic Programming (DDP) to plan a trajectory over a finite horizon, consider a small number of contact switches, and generate a stabilizing controller. Combining our approach with efficient mechanics representations enables planning of plan pose-to-pose trajectories from most initia configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. A key insight is that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations.

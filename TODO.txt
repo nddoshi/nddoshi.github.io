@@ -1,0 +1,3 @@
+improve images: clean up images, multiple images, format better
+open links in a new page
+iterate on text
