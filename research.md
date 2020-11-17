@@ -12,14 +12,16 @@ My research is broadly focused on developing technologies that allow robots to m
 
 <h3 style="text-align:center;"> Planning and control of manipulation primitives </h3>
 
-<img src="/assets/img/hddp_primitives-1.png" alt="hddp" align=left width="400" hspace="20"> 
-Manipulation primitives can be used to simplify the planning of contact-rich manipulation. I am developing more closed-loop 
+Manipulation primitives can be used to simplify the planning of contact-rich manipulation. We are a small set of closed-loop manipulation primitives that can be sequenced to achieve complex manipulations. Planning and control of these primitives is challenging as they are often hybrid, underactuated, and stochastic.
 
-I am developing a framework for closed-loop execution of these hybrid manipulation primitives. Planning and control of these tasks is challenging as they are often hybrid, underactuated, and stochastic. Our long-term goal is to develop a framework that can plan a trajectory from any initial condition, recover from large perturbations, and re-plan the mode sequence in real-time (~20 Hz).
+<img src="/assets/img/hddp_primitives-1.png" alt="hddp" align=left width="300" hspace="20"> 
+[ICRA 2020] We use Differential Dynamic Programming (DDP) to plan a trajectory over a finite horizon, consider a small number of contact switches, and generate a stabilizing controller. Combining our approach with efficient mechanics representations enables planning of plan pose-to-pose trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. A key insight is that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations.
 
-Our current approach uses Differential Dynamic Programming (DDP) to plan a trajectory over a finite horizon, consider a small number of contact switches, and generate a stabilizing controller. Combining our approach with efficient mechanics representations enables planning of plan pose-to-pose trajectories from most initia configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. A key insight is that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations.
+<img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="200" > 
+<img src="/assets/img/PlanarPushingMinimal.png" alt="levering" align=left width="200" > 
+[IROS Workshops]  Here we develop an approach, iterative linear-quadratic regulation with hybrid-variations (iLQR-HV), that generalizes HDDP to more complex primitive manipulations. We exploit the input affine structure of these primitives’ mechanics to enable efficient planning of motions that require several contact switches. We then evaluate the performance and computational cost of this framework in simulated ablations studies for several planar primitives. 
 
-Next steps include improving the speed and scalability (e.g., consider more hybrid switches) of our approach.
+We also being to focus on control, combining online system identification and state estimation with  model-predictive control to pivot an object with unknown parameters about a sticking external contact. Online parameter estimation enables a more accurate prediction of the environmental contact forces, allowing for better regulation of the predicted contact mode.
 
 #### Relevant Work: 
 **ICRA 2020:** Hybrid DDP for Planar Manipulation Primitives. [[Publication]](https://ieeexplore.ieee.org/document/9197414), [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT) <br>
@@ -78,10 +80,10 @@ Limitations in actuation, sensing, and computation have forced small legged robo
 
 Advances in laminate-based manufacturing has enabled the development of highly articulated insect-scale robots. It  is, however, difficult to characterize and model the performance of these robots due to a poor understanding of the mechanics of their joints (compliant flexures) and actuators (piezoelectric bimorphs). 
 
-<img src="/assets/img/figS1_spherical_five_bar.png" alt="hddp" align=left width="300" hspace="20"> 
+<img src="/assets/img/figS1_spherical_five_bar.png" alt="hddp" align=left width="350" hspace="20"> 
 [IROS 2015] Here we develop a lumped-parameter mechanics-model of the compliant flexures, and use this to build a model of the Harvard Ambulatory MicroRobot (HAMR) transmission. This model is then used to redesign the transmission for improved performance. This model-based redesign results in a 266% increase in the work done by the foot when compared to a previous version of HAMR, and leads to a payload capacity of 2.9g, which is about twice the robot's mass and a 114% increase.
 
-<img src="/assets/img/Delta1.png" alt="hddp" align=left width="300" hspace="20"> 
+<img src="/assets/img/Delta1.png" alt="hddp" align=left width="350" hspace="20"> 
 [Science 2018] The improved understanding of the actuators and compliant flexures was used to inform the design 
 
 #### Relevant Work: 

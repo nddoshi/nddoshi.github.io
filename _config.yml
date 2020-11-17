@@ -17,7 +17,7 @@ navbar-links:
   Home: "index"
   Research: "research"
   Publications: "https://scholar.google.com/citations?hl=en&user=uqiyHgYAAAAJ&view_op=list_works&sortby=pubdate"
-  CV: "http://mcube.mit.edu/pdfs/doshi_cv.pdf"
+  CV: "./assets/pdfs/CV_11_16_2020.pdf"
   # About Me: "aboutme"
   # Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
