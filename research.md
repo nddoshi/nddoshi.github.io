@@ -92,7 +92,7 @@ Advances in laminate-based manufacturing have enabled the development of highly 
 <img src="/assets/img/Delta1.png" alt="milldelta" align=left width="200" hspace="20"> 
 **[Science 2018]** This improved understanding of piezoelectric bending bimorph actuators and compliant flexures was used to inform the design of the milliDelta. This robot can operate with precision down to ∼5μm in a 7 mm<sup>3</sup> workspace and can follow periodic trajectories at frequencies up to 75 Hz. The milliDelta can be used for applications such as vibration cancellation in microsurgery and microassembly, or micromanipulation.
 
-##### Relevant Work: 
+<!-- ##### Relevant Work:  -->
 **IROS 2015:** Model driven design for flexure-based microrobots. [[Publication]](https://ieeexplore.ieee.org/document/7353959) <br>
 **Science 2018:** The milliDelta. [[Publications]](https://robotics.sciencemag.org/content/3/14/eaar3018), [[Video]](https://www.youtube.com/watch?v=rHUnqYDgUFY) <br>
 
