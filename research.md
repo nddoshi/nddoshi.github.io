@@ -14,7 +14,7 @@ My research is broadly focused on developing technologies that allow robots to m
 
 We are developing a small set of closed-loop manipulation primitives that can be sequenced to achieve complex manipulations. Planning and control of these primitives is challenging as they are often hybrid, underactuated, and stochastic.
 
-<img src="/assets/img/hddp_primitives-1.png" alt="hddp" align=left width="310"> 
+<img src="/assets/img/hddp_primitives.png" alt="hddp" align=left width="310"> 
 **[ICRA 2020]** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations.
 
 <img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="202" > 
@@ -36,10 +36,10 @@ We also being to focus on control, combining online system identification and st
 
 Enforcing a sequence of planned motions can be challenging under model uncertainty and with limited sensing. Switchable adhesion can be used to control contact-state (e.g. sticking versus sliding) during locomotion and manipulation, and can ameliorate these difficulties.
 
-<img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left width="300" hspace="20"> 
+<img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left width="=250" hspace="20"> 
 **[Science 2018]** We present a quadrupredal microrobot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that the robot is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine.
 
-<img src="/assets/img/pnugrip.png" alt="pnu-grip" align=left width="300" hspace="20">
+<img src="/assets/img/pnugrip.png" alt="pnu-grip" align=left width="400" hspace="20">
 **[IROS 2020]** We present the design of an active two-phase finger for mechanically mediated dexterous manipulation. This finger enables re-orientation of a grasped object by using a pneumatic braking mechanism to transition between free-rotating and fixed (i.e., braked) phases. Our design allows controlled high-bandwidth (5 Hz) phase transitions independent of the grasping force for manipulation of a variety of objects. We demonstrate several pick-and-place manipulations common to industrial and laboratory automation settings that are simplified by our design.
 
 <!-- ##### Relevant Work: -->
@@ -69,10 +69,10 @@ Planning locomotion strategies for legged microrobots is challenging due to thei
 
 Advances in manufacturing have enabled the development of legged microrobots capable of operation at multiple stride frequencies using multi-degree-of-freedom leg trajectories. Proprioceptive sensing and control is key to extending the capabilities of these robots to a broad range of operating conditions. 
 
-<img src="/assets/img/resonance.png" alt="resonant-phase" align=left width="400" hspace="20"> 
+<img src="/assets/img/resonance.png" alt="resonant-phase" align=left width="350" hspace="20"> 
 **[ICRA 2017]** We develop a computationally efficient controller to leverage the significant increase in stride length at transmission resonance for faster and more efficient locomotion. We show that our scheme converges quickly to the desired trajectory both in air and under cyclic perturbations that approximate ground contact. However, we find that locomotion at resonance results in increased leg slippage instead of fast forward locomotion.
 
-<img src="/assets/img/bio_bio.png" alt="bio-bio" align=left width="400" hspace="20"> 
+<img src="/assets/img/bio_bio.png" alt="bio-bio" align=left width="350" hspace="20"> 
 **[Bio&Bio 2019]** We use concomitant sensing for piezoelectric actuation with a computationally efficient framework for estimation and control of leg trajectories on a quadrupedal microrobot. We demonstrate accurate position estimation and control during locomotion across a wide range of stride frequencies. This capability enables the exploration of two bio-inspired parametric leg trajectories designed to reduce leg-slip and increase locomotion performance. Our approach enables high performance locomotion at stride frequencies where the robot’s natural dynamics result in poor open-loop locomotion.
 
 <!-- ##### Relevant Work: -->
@@ -89,7 +89,7 @@ Advances in laminate-based manufacturing have enabled the development of highly 
 <img src="/assets/img/sfb.png" alt="hamr-transmission" align=left width="225" hspace="20"> 
 **[IROS 2015]** We develop a lumped-parameter mechanics-model of the compliant flexures, and use this to build a model a quadrupedal microrobot's transmission. This model is then used to redesign the transmission, resulting in a 266% increase in the work done by the foot when compared to a previous version of the robot. The results in a payload capacity of 2.9g, which is about twice the robot's mass and a 114% increase.
 
-<img src="/assets/img/Delta1.png" alt="milldelta" align=left width="225" hspace="20"> 
+<img src="/assets/img/Delta1.png" alt="milldelta" align=left width="200" hspace="20"> 
 **[Science 2018]** This improved understanding of piezoelectric bending bimorph actuators and compliant flexures was used to inform the design of the milliDelta. This robot can operate with precision down to ∼5μm in a 7 mm<sup>3</sup> workspace and can follow periodic trajectories at frequencies up to 75 Hz. The milliDelta can be used for applications such as vibration cancellation in microsurgery and microassembly, or micromanipulation.
 
 ##### Relevant Work: 
