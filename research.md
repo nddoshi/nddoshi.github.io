@@ -36,10 +36,10 @@ We also being to focus on control, combining online system identification and st
 Enforcing a sequence of planned motions can be challenging under model uncertainty and with limited sensing.   However, switchable adhesion can be used to control contact-state (e.g. sticking versus sliding) during locomotion and manipulation. 
 
 <img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left width="300" hspace="20"> 
-**[Science 2018]** We presents a millimeter-scale quadrupredal robot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that HAMR-E is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine.
+**[Science 2018]** We presents a millimeter-scale quadrupredal robot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that the robot is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine.
 
 <img src="/assets/img/pnugrip-1.png" alt="pnu-grip" align=left width="300" hspace="20">
-**[IROS 2020]** We present the design of an \textit{active} two-phase finger for mechanically mediated dexterous manipulation. The finger enables re-orientation of a grasped object by using a pneumatic braking mechanism to transition between free-rotating and fixed (i.e., braked) phases. Our design allows controlled high-bandwidth (5 Hz) phase transitions independent of the grasping force for manipulation of a variety of objects. Moreover, its thin profile (1~cm) facilitates picking and placing in clutter. Finally, the design features a sensor for measuring fingertip rotation to support feedback control. We experimentally characterize the finger's load handling capacity in the brake phase and rotational resistance in the free phase. We also demonstrate several pick-and-place manipulations common to industrial and laboratory automation settings that are simplified by our design.
+**[IROS 2020]** We present the design of an active two-phase finger for mechanically mediated dexterous manipulation. The finger enables re-orientation of a grasped object by using a pneumatic braking mechanism to transition between free-rotating and fixed (i.e., braked) phases. Our design allows controlled high-bandwidth (5 Hz) phase transitions independent of the grasping force for manipulation of a variety of objects. We demonstrate several pick-and-place manipulations common to industrial and laboratory automation settings that are simplified by our design.
 
 ##### Relevant Work:
 **Science 2018:**  Climbing with a quadrupedal microrobot using electroadhesion. [[Publication]](https://robotics.sciencemag.org/content/3/25/eaau3038), [[Video]](https://www.youtube.com/watch?v=hPqFJ_lwHjY&ab_channel=MicroroboticsLab) <br>
@@ -53,7 +53,7 @@ Enforcing a sequence of planned motions can be challenging under model uncertain
 
 Planning locomotion strategies for legged microrobots is challenging due to their complex morphology and discontinuous contact interactions with the environment.
 
-<img src="/assets/img/Intro-Fig_increasedexposure-1.png" alt="hamr-jump" align= width="400" hspace="20"> 
+<img src="/assets/img/Intro-Fig_increasedexposure-1.png" alt="hamr-jump" align="left" width="400" hspace="20"> 
 We developed a framework for systematically modeling, planning, and controlling legged microrobots. This involved building a three-dimensional dynamic model of a 1.43 g quadrupedal microrobot and developing variational contact-implicit trajectory optimization methods to generate feasible whole-body locomotion plans for this robot. Our method is used to plan periodic gaits at multiple stride frequencies and on various surfaces. These gaits achieve high per-cycle velocities, including a maximum of 10.87 mm/cycle, which is 33% faster than previously measured for this robot. Furthermore, we plan and execute a vertical jump of 9.96 mm, which is 78% of the robot’s body height.
 
 ##### Relevant Work: 
@@ -86,10 +86,10 @@ Advances in manufacturing have enabled the development of small legged robote ca
 
 Advances in laminate-based manufacturing have enabled the development of highly articulated insect-scale robots. It  is, however, difficult to characterize and model the performance of these robots due to a poor understanding of the mechanics of their joints (compliant flexures) and actuators (piezoelectric bimorphs). 
 
-<img src="/assets/img/figS1_spherical_five_bar.png" alt="hddp" align=left width="275" hspace="20"> 
+<img src="/assets/img/figS1_spherical_five_bar.png" alt="hddp" align=left width="225" hspace="20"> 
 **[IROS 2015]** We develop a lumped-parameter mechanics-model of the compliant flexures, and use this to build a model a quadrupedal microrobot's transmission. This model is then used to redesign the transmission, resulting in a 266% increase in the work done by the foot when compared to a previous version of the robot. The results in a payload capacity of 2.9g, which is about twice the robot's mass and a 114% increase.
 
-<img src="/assets/img/Delta1.png" alt="hddp" align=left width="275" hspace="20"> 
+<img src="/assets/img/Delta1.png" alt="hddp" align=left width="225" hspace="20"> 
 **[Science 2018]** This improved understanding of piezoelectric bending bimorph actuators and compliant flexures was used to inform the design of the milliDelta. This robot can operate with precision down to ∼5μm in a 7 mm^3 workspace and can follow periodic trajectories at frequencies up to 75 Hz. The milliDelta can be used for applications such as vibration cancellation in microsurgery and microassembly, or micromanipulation.
 
 ##### Relevant Work: 
