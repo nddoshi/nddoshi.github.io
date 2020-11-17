@@ -69,10 +69,10 @@ We developed a framework for systematically modeling, planning, and controlling 
 
 Advances in manufacturing have enabled the development of small legged robote capable of operation at multiple stride frequencies using multi-degree-of-freedom leg trajectories. Proprioceptive sensing and control is key to extending the capabilities of these robots to a broad range of operating conditions. 
 
-<img src="/assets/img/resonance.gif" alt="resonant-phase" align=left width="250" hspace="20"> 
+<img src="/assets/img/resonance.gif" alt="resonant-phase" align=left width="350" hspace="20"> 
 **[ICRA 2017]** We develop a computationally efficient controller to leverage the significant increase in stride length at transmission resonance for faster and more efficient locomotion. We show that our scheme converges quickly to the desired trajectory both in air and under cyclic perturbations that approximate ground contact. However, we find that locomotion at resonance results in increased leg slippag instead of fast forward locomotion.
 
-<img src="/assets/img/bio_bio.png" alt="bio-bio" align=left width="250" hspace="20"> 
+<img src="/assets/img/bio_bio.png" alt="bio-bio" align=left width="350" hspace="20"> 
 **[Bio&Bio 2019]** We use concomitant sensing for piezoelectric actuation with a computationally efficient framework for estimation and control of leg trajectories on a quadrupedal microrobot. We demonstrate accurate position estimation and control during locomotion across a wide range of stride frequencies. This capability enables the exploration of two bio-inspired parametric leg trajectories designed to reduce leg-slip and increase locomotion performance. Our approach enables high performance locomotion at stride frequencies where the robot’s natural dynamics result in poor open-loop locomotion.
 
 ##### Relevant Work:
