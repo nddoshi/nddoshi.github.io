@@ -14,15 +14,15 @@ My research is broadly focused on developing technologies that allow robots to m
 
  A key challenge in locomotion and manipulation is designing motions that react intelligently to unexpected perturbations and changes in the environment. My research is on developing a small set of closed-loop manipulation primitives that can be sequenced to achieve complex manipulations.
 
-<img src="/assets/img/hddp_primitives.png" alt="hddp" align=left height="300"> 
+<img src="/assets/img/hddp_primitives.png" alt="hddp" align=left width="300"> 
 **ICRA 2020: Hybrid DDP for planar manipulation primitives.** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. **[[Publication]](https://ieeexplore.ieee.org/document/9197414) [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT)**  
 <br>
 <br>
 <br>
 <br>
 <!-- <br> -->
-<img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left height="203" > 
-<img src="/assets/img/PlanarPushingMinimal.png" alt="pushing" align=left height="200" hspace="20"> 
+<img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="203" > 
+<img src="/assets/img/PlanarPushingMinimal.png" alt="pushing" align=left width="200" hspace="20"> 
 **IROS Workshop 2020:  Hybrid iLQR for primitive manipulation.** We are developing an novel approach, iterative linear-quadratic regulation with hybrid-variations (iLQR-HV), that generalizes HDDP to more complex manipulations primitive. We exploit the input affine structure of these primitives’ mechanics to enable efficient planning of motions that require several contact switches. We apply our approach to several well-known manipulation primitives, including grasping, pushing, pulling, and pivoting; finding that our algorithm can efficiently (in 1 to 6 seconds) plan pose-to-pose object manipulations with several contact switches. **[[Abstract]](./assets/pdfs/Robotic_In_Situ_Workshop.pdf) [[Video]](./assets/vids/DoshiNeel_iLQR_Primitivesc.mp4)** 
 
 <!-- 
@@ -40,13 +40,13 @@ We also being to focus on control, combining online system identification and st
 
 Enforcing a sequence of planned motions can be challenging under model uncertainty and with limited sensing. My research uses switchable adhesion to control contact-state (e.g. sticking versus sliding) during locomotion and manipulation.
 
-<img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left height="250" hspace="20"> 
+<img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left width="250" hspace="20"> 
 **Science 2018: Climbing with a quadrupedal microrobot using electroadhesion.** We present a quadrupredal microrobot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that the robot is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine. **[[Publication]](https://robotics.sciencemag.org/content/3/25/eaau3038) [[Video]](https://www.youtube.com/watch?v=hPqFJ_lwHjY&ab_channel=MicroroboticsLab)**
 <br>
 <br>
 <br>
 <br>
-<img src="/assets/img/pnugrip.png" alt="pnu-grip" align=left height="400" hspace="20">
+<img src="/assets/img/pnugrip.png" alt="pnu-grip" align=left width="400" hspace="20">
 **IROS 2020: PnuGrip: An active two-phase gripper for dexterous manipulation.** We present the design of an active two-phase finger for mechanically mediated dexterous manipulation. This finger enables re-orientation of a grasped object by using a pneumatic braking mechanism to transition between free-rotating and fixed (i.e., braked) phases. Our design allows controlled high-bandwidth (5 Hz) phase transitions independent of the grasping force for manipulation of a variety of objects. We demonstrate several pick-and-place manipulations common to industrial and laboratory automation settings that are simplified by our design. **[[Publication]](http://ras.papercept.net/images/temp/IROS/files/1356.pdf) [[Video]](https://www.youtube.com/watch?v=dtDefve8KFk)**
 
 <!-- ##### Relevant Work: -->
@@ -61,8 +61,8 @@ Enforcing a sequence of planned motions can be challenging under model uncertain
 
 Planning locomotion strategies for legged microrobots is challenging due to their complex morphology and discontinuous contact interactions with the environment. My work leverages high fidelity robot models and high accuracy trajectory optimization techniques to generate realistic locomotion plans. 
 
-<img src="/assets/img/Intro-Fig_increasedexposure.png" alt="hamr-jump" align="left" height="400" hspace="20"> 
-**RSS 2018, IJRR 2019: Contact-implicit trajectory optimization for a quadrupedal microrobot.** We developed a framework for systematically modeling, planning, and controlling legged microrobots. This involved building a three-dimensional dynamic model of a quadrupedal microrobot and developing a second-order contact-implicit trajectory optimization methods to generate feasible whole-body locomotion plans for this robot. Our method is used to plan periodic gaits at multiple stride frequencies and on various surfaces. These gaits achieve high per-cycle velocities, including a maximum of 10.87 mm/cycle, which is 33% faster than previously measured for this robot. Furthermore, we plan and execute a vertical jump of 9.96 mm, which is 78% of the robot’s body height. **[[RSS Publication]](http://www.roboticsproceedings.org/rss14/p41.pdf) [[IJRR Publication]](https://journals.sagepub.com/doi/full/10.1177/0278364919849235) [[Video]](https://www.youtube.com/watch?v=fg5MiyJ7dXw&ab_channel=HarvardAgileRoboticsLab)**
+<img src="/assets/img/Intro-Fig_increasedexposure.png" alt="hamr-jump" align="left" width="400" hspace="20"> 
+**RSS 2018, IJRR 2019: Contact-implicit trajectory optimization for a quadrupedal microrobot.** We developed a framework for systematically modeling, planning, and controlling legged microrobots. This involved building a three-dimensional dynamic model of a quadrupedal microrobot and developing a second-order contact-implicit trajectory optimization methods to generate feasible whole-body locomotion plans for this robot. Our method is used to plan periodic gaits at multiple stride frequencies and on various surfaces. These gaits achieve high per-cycle velocities, including a maximum of 10.87 mm/cycle, which is 33% faster than previously measured for this robot. Furthermore, we plan and execute a vertical jump of 9.96 mm, which is 78% of the robot’s body width. **[[RSS Publication]](http://www.roboticsproceedings.org/rss14/p41.pdf) [[IJRR Publication]](https://journals.sagepub.com/doi/full/10.1177/0278364919849235) [[Video]](https://www.youtube.com/watch?v=fg5MiyJ7dXw&ab_channel=HarvardAgileRoboticsLab)**
 
 <!-- ##### Relevant Work:  -->
 <!-- **RSS 2018:** .  <br>
@@ -75,10 +75,10 @@ Planning locomotion strategies for legged microrobots is challenging due to thei
 
 Advances in manufacturing have enabled the development of legged microrobots capable of operation at multiple stride frequencies using leg trajectories with multiple degrees-of-freedom. My work uses proprioceptive sensing and control to track desired leg tajectories and enable effective locomotion at a wide range of stride frequencies.  
 
-<img src="/assets/img/resonance.png" alt="resonant-phase" align=left height="350" hspace="20"> 
+<img src="/assets/img/resonance.png" alt="resonant-phase" align=left width="350" hspace="20"> 
 **ICRA 2017: Phase control for a legged microrobot operating at resonance.** We develop a computationally efficient controller to leverage the significant increase in stride length at transmission resonance for faster and more efficient locomotion. We show that our scheme converges quickly to the desired trajectory both in air and under cyclic perturbations that approximate ground contact. However, we find that locomotion at resonance results in increased leg slippage instead of fast forward locomotion. **[[Publication]](https://ieeexplore.ieee.org/document/7989704)**
 
-<img src="/assets/img/bio_bio.png" alt="bio-bio" align=left height="350" hspace="20"> 
+<img src="/assets/img/bio_bio.png" alt="bio-bio" align=left width="350" hspace="20"> 
 **Bio&Bio 2019: Locomotion at multiple stride frequencies using proprioceptive feedback.** We use concomitant sensing for piezoelectric actuation with a computationally efficient framework for estimation and control of leg trajectories on a quadrupedal microrobot. We demonstrate accurate position estimation and control during locomotion across a wide range of stride frequencies. This capability enables the exploration of two bio-inspired parametric leg trajectories designed to reduce leg-slip and increase locomotion performance. Our approach enables high performance locomotion at stride frequencies where the robot’s natural dynamics result in poor open-loop locomotion. **[[Publication]](https://iopscience.iop.org/article/10.1088/1748-3190/ab295b)**
 
 <!-- ##### Relevant Work: -->
@@ -90,14 +90,14 @@ Advances in manufacturing have enabled the development of legged microrobots cap
 
 <h3 style="text-align:center;"> Design of flexure-based microrobots </h3>
 
-Advances in laminate-based manufacturing have enabled the development of highly articulated microrobots. My research is on developing models of their joints (compliant flexures) and actuators (piezoelectric bimorphs) to predict the behavior and improve the design of these robots.
+Advances in laminate-based manufacturing have enabled the development of highly articulated microrobots. My research is on models of their joints (compliant flexures) and actuators (piezoelectric bimorphs) to predict the behavior and improve the design of these robots.
 
-<img src="/assets/img/sfb.png" alt="hamr-transmission" align=left height="225" hspace="20"> 
+<img src="/assets/img/sfb.png" alt="hamr-transmission" align=left width="225" hspace="20"> 
 **IROS 2015: Model driven design for flexure-based microrobots.** We develop a lumped-parameter mechanics-model of the compliant flexures, and use this to build a model a quadrupedal microrobot's transmission. This model is then used to redesign the transmission, resulting in a 266% increase in the work done by the foot when compared to a previous version of the robot. The results in a payload capacity of 2.9g, which is about twice the robot's mass and a 114% increase. **[[Publication]](https://ieeexplore.ieee.org/document/7353959)**
 <br>
 <br>
 <br>
-<img src="/assets/img/Delta1.png" alt="milldelta" align=left height="200" hspace="20"> 
+<img src="/assets/img/Delta1.png" alt="milldelta" align=left width="200" hspace="20"> 
 **Science 2018: The milliDelta.** This improved understanding of piezoelectric bending bimorph actuators and compliant flexures was used to inform the design of the milliDelta. This robot can operate with precision down to ∼5μm in a 7 mm<sup>3</sup> workspace and can follow periodic trajectories at frequencies up to 75 Hz. The milliDelta can be used for applications such as vibration cancellation in microsurgery and microassembly, or micromanipulation. **[[Publication]](https://robotics.sciencemag.org/content/3/14/eaar3018) [[Video]](https://www.youtube.com/watch?v=rHUnqYDgUFY)**
 
 <!-- ##### Relevant Work:  -->
