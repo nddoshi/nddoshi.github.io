@@ -12,7 +12,7 @@ My research is broadly focused on developing technologies that allow robots to m
 
 <h3 style="text-align:center;"> Planning of manipulation primitives </h3>
 
- A key challenge in manipulation is designing motions that react intelligently to unexpected perturbations and changes in the environment. My research is on developing a small set of closed-loop manipulation primitives that can be sequenced to achieve complex motions.
+ A key challenge in manipulation is designing motions that react intelligently to unexpected perturbations and changes in the environment. My research is on developing a small set of closed-loop manipulation primitives that can be sequenced to achieve complex motions that are reactive.
 
 <img src="/assets/img/hddp_primitives.png" alt="hddp" align=left width="300"> 
 **ICRA 2020: Hybrid DDP for planar manipulation primitives.** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. **[[Publication]](https://ieeexplore.ieee.org/document/9197414) [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT)**  
@@ -59,7 +59,7 @@ Enforcing a sequence of planned motions can be challenging under model uncertain
 
 <h3 style="text-align:center;"> Trajectory optimization for millimeter-scale legged robots</h3>
 
-Planning locomotion strategies for millimeter-scale legged is challenging due to the limited availibity of on-board computation. My work leverages high fidelity robot models and high accuracy trajectory optimization techniques for offline planning of realistic locomotion plan that can be tracked with simple on-board controllers. 
+Planning locomotion strategies for millimeter-scale legged robots is challenging due to the limited availibity of on-board computation. In my work, I develop high fidelity robot models and high accuracy trajectory optimization techniques for offline planning of realistic locomotion plan that can be tracked with simple on-board controllers. 
 
 <img src="/assets/img/Intro-Fig_increasedexposure.png" alt="hamr-jump" align="left" width="400" hspace="20"> 
 **RSS 2018, IJRR 2019: Contact-implicit trajectory optimization for a millimeter-scale quadrupedal robot.** We developed a framework for systematically modeling, planning, and controlling millimeter-scale legged robots. This involved building a three-dimensional dynamic model of a millmeter-scale quadrupedal and developing a second-order contact-implicit trajectory optimization methods to generate feasible whole-body locomotion plans for this robot. Our method is used to plan periodic gaits at multiple stride frequencies and on various surfaces. These gaits achieve high per-cycle velocities, including a maximum of 10.87 mm/cycle, which is 33% faster than previously measured for this robot. Furthermore, we plan and execute a vertical jump of 9.96 mm, which is 78% of the robot’s body width. **[[RSS Publication]](http://www.roboticsproceedings.org/rss14/p41.pdf) [[IJRR Publication]](https://journals.sagepub.com/doi/full/10.1177/0278364919849235) [[Video]](https://www.youtube.com/watch?v=fg5MiyJ7dXw&ab_channel=HarvardAgileRoboticsLab)**
@@ -90,7 +90,7 @@ Advances in manufacturing have enabled the development of millimeter-scale legge
 
 <h3 style="text-align:center;"> Design of flexure-based millimeter-scale robots </h3>
 
-Advances in laminate-based manufacturing have enabled the development of highly articulated millimeter-scale robots. My research is on developing models of their joints (compliant flexures) and actuators (piezoelectric bimorphs) to predict their behavior and improve their design.
+Advances in laminate-based manufacturing have enabled the development of highly articulated millimeter-scale robots. In my work, I develop models of their joints (compliant flexures) and actuators (piezoelectric bimorphs) to predict their behavior and improve their design.
 
 <img src="/assets/img/sfb.png" alt="hamr-transmission" align=left width="225" hspace="20"> 
 **IROS 2015: Model driven design for flexure-based millimeter-scale robots.** We develop a lumped-parameter mechanics-model of the compliant flexures, and use this to build a model of a millimeter-scale quadrupedal robot's transmission. This model is then used to redesign the transmission, resulting in a 266% increase in the work done by the foot when compared to a previous version of the robot. The results in a payload capacity of 2.9g, which is about twice the robot's mass and a 114% increase. **[[Publication]](https://ieeexplore.ieee.org/document/7353959)**
