@@ -15,19 +15,22 @@ My research is broadly focused on developing technologies that allow robots to m
 I am developing a small set of closed-loop manipulation primitives that can be sequenced to achieve complex manipulations. Planning and control of these primitives is challenging as they are often hybrid, underactuated, and stochastic.
 
 <img src="/assets/img/hddp_primitives.png" alt="hddp" align=left width="300"> 
-**[ICRA 2020: Hybrid DDP for planar manipulation primitives.** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. **[[Publication]](https://ieeexplore.ieee.org/document/9197414) [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT)]**  
-  
-  
+**ICRA 2020: Hybrid DDP for planar manipulation primitives.** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. **[[Publication]](https://ieeexplore.ieee.org/document/9197414) [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT)**  
+<br>
+<br>
+<br>
+<br>
+<br>
 <img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="203" > 
 <img src="/assets/img/PlanarPushingMinimal.png" alt="pushing" align=left width="200" hspace="20"> 
-**[IROS Workshop:  Hybrid iLQR for primitive manipulation]** We are developing an novel approach, iterative linear-quadratic regulation with hybrid-variations (iLQR-HV), that generalizes HDDP to more complex manipulations primitive. We exploit the input affine structure of these primitives’ mechanics to enable efficient planning of motions that require several contact switches. We apply our approach to several well-known manipulation primitives, including grasping, pushing, pulling, and pivoting; finding that our algorithm can efficiently (in 1 to 6 seconds) plan pose-to-pose object manipulations with several contact switches.
+**[IROS Workshop 2020:  Hybrid iLQR for primitive manipulation]** We are developing an novel approach, iterative linear-quadratic regulation with hybrid-variations (iLQR-HV), that generalizes HDDP to more complex manipulations primitive. We exploit the input affine structure of these primitives’ mechanics to enable efficient planning of motions that require several contact switches. We apply our approach to several well-known manipulation primitives, including grasping, pushing, pulling, and pivoting; finding that our algorithm can efficiently (in 1 to 6 seconds) plan pose-to-pose object manipulations with several contact switches. [[Abstract]](./assets/pdfs/Robotic_In_Situ_Workshop.pdf) [[Video]](./assets/vids/DoshiNeel_iLQR_Primitivesc.mp4) 
 
 <!-- 
 We also being to focus on control, combining online system identification and state estimation with  model-predictive control to pivot an object with unknown parameters about a sticking external contact. Online parameter estimation enables a more accurate prediction of the environmental contact forces, allowing for better regulation of the predicted contact mode. -->
 
 <!-- #### Relevant Work:  -->
-**ICRA 2020:**  <br>
-**IROS 2021 Workshop:**. [[Abstract]](./assets/pdfs/Robotic_In_Situ_Workshop.pdf), [[Video]](./assets/vids/DoshiNeel_iLQR_Primitivesc.mp4) <br> 
+<!-- **ICRA 2020:**  <br>
+**IROS 2021 Workshop:**. <br>  -->
 <!-- **IROS 2021 Workshop:** Pivoting an unkown object about an environmental contact. [[Abstract]](./assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> -->
 
 <!-- ########################## Entry 1 ############################# -->
