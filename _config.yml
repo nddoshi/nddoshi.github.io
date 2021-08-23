@@ -17,7 +17,7 @@ navbar-links:
   # Home: "index"
   Research: "research"
   Publications: "https://scholar.google.com/citations?hl=en&user=uqiyHgYAAAAJ&view_op=list_works&sortby=pubdate"
-  CV: "./assets/pdfs/CV.pdf"
+  CV: "./assets/pdfs/doshi_CV.pdf"
   # About Me: "aboutme"
   # Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
