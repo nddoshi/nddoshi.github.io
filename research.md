@@ -18,8 +18,8 @@ My research is broadly focused on developing technologies that allow robots to m
 **ICRA 2020: Hybrid DDP for planar manipulation primitives.** We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. **[[Publication]](./assets/pdfs/doshi_icra2020.pdf) [[Video]](https://www.youtube.com/watch?v=YGSe4cUfq6Q&feature=youtu.be&ab_channel=MCubeLabMIT)**  
 <br>
 <br>
-<br>
-<br>
+<!-- <br>
+<br> -->
 <!-- <br> -->
 <img src="/assets/img/PlanarLeveringMinimal.png" alt="levering" align=left width="203" > 
 <img src="/assets/img/PlanarPushingMinimal.png" alt="pushing" align=left width="200" hspace="20"> 
