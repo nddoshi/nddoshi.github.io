@@ -33,28 +33,6 @@ We also being to focus on control, combining online system identification and st
 **IROS 2021 Workshop:**. <br>  -->
 <!-- **IROS 2021 Workshop:** Pivoting an unkown object about an environmental contact. [[Abstract]](./assets/pdfs/Fail_to_Grasp_Workshop.pdf) <br> -->
 
-<!-- ########################## Entry 1 ############################# -->
----
-
-<h3 style="text-align:center;"> Switchable adhesion for robot end-effectors </h3>
-
-Enforcing a sequence of planned motions can be challenging under model uncertainty and with limited sensing. My research uses switchable adhesion to enforce the planned contact-state (e.g., sticking versus sliding) during locomotion and manipulation.
-
-<img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left width="250" hspace="20"> 
-**Science 2018: Climbing with a quadrupedal millimeter-scale robot using electroadhesion.** We present a millimeter-scale quadrupredal robot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that the robot is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine. **[[Publication]](./assets/pdfs/deRivaz_scirob2018.pdf) [[Video]](https://www.youtube.com/watch?v=hPqFJ_lwHjY&ab_channel=MicroroboticsLab)**
-<br>
-<br>
-<br>
-<br>
-<br>
-<img src="/assets/img/pnugrip.png" alt="pnu-grip" align=left width="400" hspace="20">
-**IROS 2020: PnuGrip: An active two-phase gripper for dexterous manipulation.** We present the design of an active two-phase finger for mechanically mediated dexterous manipulation. This finger enables re-orientation of a grasped object by using a pneumatic braking mechanism to transition between free-rotating and fixed (i.e., braked) phases. Our design allows controlled high-bandwidth (5 Hz) phase transitions independent of the grasping force for manipulation of a variety of objects. We demonstrate several pick-and-place manipulations common to industrial and laboratory automation settings that are simplified by our design. **[[Publication]](./assets/pdfs/taylor_iros2020.pdf) [[Video]](https://www.youtube.com/watch?v=dtDefve8KFk)**
-
-<!-- ##### Relevant Work: -->
-<!-- **Science 2018:**  . 
-**IROS 2020:**  () <br> -->
-
-
 <!-- ########################## Entry 2 ############################# -->
 ---
 
@@ -86,8 +64,29 @@ Advances in manufacturing have enabled the development of millimeter-scale legge
 <!-- **ICRA 2017:** .  <br>
 **Bio&Bio 2019:**  -->
 
-<!-- ########################## Entry 4 ############################# -->
+<!-- ########################## Entry 1 ############################# -->
 ---
+
+<h3 style="text-align:center;"> Switchable adhesion for robot end-effectors </h3>
+
+Enforcing a sequence of planned motions can be challenging under model uncertainty and with limited sensing. My research uses switchable adhesion to enforce the planned contact-state (e.g., sticking versus sliding) during locomotion and manipulation.
+
+<img src="/assets/img/Seb_EA.png" alt="hamr-ea" align=left width="250" hspace="20"> 
+**Science 2018: Climbing with a quadrupedal millimeter-scale robot using electroadhesion.** We present a millimeter-scale quadrupredal robot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that the robot is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine. **[[Publication]](./assets/pdfs/deRivaz_scirob2018.pdf) [[Video]](https://www.youtube.com/watch?v=hPqFJ_lwHjY&ab_channel=MicroroboticsLab)**
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="/assets/img/pnugrip.png" alt="pnu-grip" align=left width="400" hspace="20">
+**IROS 2020: PnuGrip: An active two-phase gripper for dexterous manipulation.** We present the design of an active two-phase finger for mechanically mediated dexterous manipulation. This finger enables re-orientation of a grasped object by using a pneumatic braking mechanism to transition between free-rotating and fixed (i.e., braked) phases. Our design allows controlled high-bandwidth (5 Hz) phase transitions independent of the grasping force for manipulation of a variety of objects. We demonstrate several pick-and-place manipulations common to industrial and laboratory automation settings that are simplified by our design. **[[Publication]](./assets/pdfs/taylor_iros2020.pdf) [[Video]](https://www.youtube.com/watch?v=dtDefve8KFk)**
+
+<!-- ##### Relevant Work: -->
+<!-- **Science 2018:**  . 
+**IROS 2020:**  () <br> -->
+
+
+<!-- ########################## Entry 4 ############################# -->
 
 <h3 style="text-align:center;"> Design of flexure-based millimeter-scale robots </h3>
 
