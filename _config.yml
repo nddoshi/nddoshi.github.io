@@ -45,11 +45,11 @@ navbar-links:
 social-network-links:
   email: "nddoshi@mit.edu"
   # facebook: deanattali
-  github: neeld
+  github: "nddoshi"
   # twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: "neel-doshi-a250a51a7"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -93,7 +93,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "robotic manipulation,legged robots, microrobots, Harvard, MIT,neel doshi,"
+keywords: "robotic manipulation, legged robots, microrobots, Harvard, MIT, neel doshi,"
 
 # --- Colours / background image --- #
 
