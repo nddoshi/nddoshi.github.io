@@ -95,7 +95,7 @@ Enforcing a sequence of planned motions can be challenging under model uncertain
 </p>
 
 <p>
-<img src="/assets/img/Seb_EA.png" alt="hamr-ea" style="float:left;width:15%;" hspace="25" />
+<img src="/assets/img/Seb_EA.png" alt="hamr-ea" style="float:left;width:15%;" hspace="10" />
 </p>
 <p> <b> Science Robotics 2018: Climbing with a quadrupedal centimeter-scale robot using electroadhesion.</b> We present a centimeter-scale quadrupredal robot with electroadhesive feet. This robot leverages electroadhesion to achieve locomotion on horizontal, vertical, inverted, and curved conductive surfaces, highlighting its unique locomotive flexibility. As a demonstration of its potential for industrial applications, such as in-situ inspection of high-value assets, we show that the robot is capable of achieving open-loop, inverted locomotion inside a curved portion of a commercial jet engine. 
 <a href="https:://nddoshi.github.io/assets/pdfs/deRivaz_scirob2018.pdf" target="_blank"><b>[Publication]</b></a> 
@@ -105,26 +105,39 @@ Enforcing a sequence of planned motions can be challenging under model uncertain
 <br>
 <hr>
 <!-- ########################## Entry 3 ############################# -->
-
 <h3 style="text-align:center;"> Design of flexure-based centimeter-scale robots </h3>
 <br>
 Advances in laminate-based manufacturing have enabled the development of highly articulated centimeter-scale robots. In my work, I develop models of their joints (compliant flexures) and actuators (piezoelectric bimorphs) to predict their behavior and improve their design.
 <br>
 
+
 <p>
-<img src="/assets/img/Delta1.png" alt="milldelta" style="float:right;width:15%;" hspace="25"> 
+<img src="/assets/img/afm-sarrus.png" alt="sarrus" style="float:right;width:15%;" hspace="25"> 
 </p>
-<p> <b> Science Robotics 2018: The milliDelta. </b> An improved understanding of the compliant flexures was used to inform the design of the milliDelta. This robot can operate with precision down to ∼5μm in a 7 mm<sup>3</sup> workspace and can follow periodic trajectories at frequencies up to 75 Hz. The milliDelta can be used for applications such as vibration cancellation in microsurgery and microassembly, or micromanipulation. 
+
+<p> <b> AFM 2021: A fabrication strategy for reconfigurable millimeter-scale metamaterials. </b> We use laminate manufacturing to develop a method for designing reconfigurable metamaterials at the millimeter-scale. Our approach is compatible with a wide range of materials and requires minimal manual assembly. We characterize how the use of laminate manufacturing affects the behavior of these multi-component arrays. To this end, a numerical model that captures the deformations exhibited by the structures is developed, and an analytic model that predicts the strain of the structure under compressive stress is built. Overall, this approach can be leveraged to develop millimeter-scale metamaterials for applications that require reconfigurable materials, such as in the design of tunable acoustics, photonic waveguides, and electromagnetic devices
+<a href="https:://nddoshi.github.io/assets/pdfs/doshi_afmb2022.pdf" target="_blank"><b>[Publication]</b></a>
+
+</p>
+
+<p>
+<img src="/assets/img/Delta1.png" alt="milldelta" style="float:left;width:20%;" hspace="10"> 
+</p>
+<p> <b> Science Robotics 2018: The milliDelta. </b> Developing a millimeter-scale Delta robot that maintains the characteristic input-output behavior and operates with high speed and precision requires overcoming manufacturing and actuation challenges. We present the design, fabrication, and characterization of an adapted Delta
+robot at the millimeter scale (the “milliDelta”) that leverages printed circuit microelectromechanical system manufacturing techniques and is driven by three independently controlled piezoelectric bending actuators. This robot can operate with precision down to ∼5μm in a 7 mm<sup>3</sup> workspace and can follow periodic trajectories at frequencies up to 75 Hz. The milliDelta can be used for applications such as vibration cancellation in microsurgery and microassembly, or micromanipulation. 
 <a href="https:://nddoshi.github.io/assets/pdfs/mcclintock_scirob2018.pdf" target="_blank"><b>[Publication]</b></a> 
 <a href="https://www.youtube.com/watch?v=rHUnqYDgUFY" 
 target="_blank"><b> [Video]</b></a>
 </p>
 
 <p>
-<img src="/assets/img/sfb.png" alt="hamr-transmission"  style="float:left;width:20%;" hspace="25"> 
+<img src="/assets/img/sfb.png" alt="hamr-transmission"  style="float:right;width:20%;" hspace="5"> 
 </p>
 
-<p> <b> IROS 2015: Model driven design for flexure-based centimeter-scale robots. </b> We develop a lumped-parameter mechanics-model of the compliant flexures, and use this to build a model of a centimeter-scale quadrupedal robot's transmission. This model is then used to redesign the transmission, resulting in a 266% increase in the work done by the foot when compared to a previous version of the robot. The results in a payload capacity of 2.9g, which is about twice the robot's mass and a 114% increase. 
+<p> <b> IROS 2015: Model driven design for flexure-based millimeter-scale robots. </b> 
+
+We present a non-linear, dynamic model of the Harvard Ambulatory Microrobot's (HAMR's) flexure-based transmission. The model is derived from first principles and has led to a more comprehensive understanding of the components in this transmission. In particular, an empirically-informed lumped-parameter mechanics-model of the compliant Kapton flexures is developed and verified against theoretical results from beam and vibration theory. The transmission model is used to redesign the transmission for improved performance in this regime. The model based redesign results in a 266%
+increase in the work done by the foot when compared to a previous version of HAMR. This leads to a payload capacity of 2.9g, which is ∼ 2× the robot’s mass and a 114% increase. 
 <a href="https:://nddoshi.github.io/assets/pdfs/doshi_iros2015.pdf" target="_blank"><b>[Publication]</b></a> 
 </p>
 
