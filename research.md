@@ -20,7 +20,7 @@ A key challenge in manipulation is designing motions that react intelligently to
     <img src="/assets/img/contact-config-regulation.png" alt="Rectangle_Balance" style="float:right;width:30%;" hspace="25"/>
 </p>
 
-<p> <b> ICRA 2022: Manipulation of unknown objects via contact configuration regulation. </b> We develoed an approach to robotic manipulation of unknown objects through regulation of the object’s contact configuration: the location, geometry, and mode of all contacts between the object, robot, and environment. A contact configuration constrains the forces and motions that can be applied to the object; however, synthesizing these constraints generally requires knowledge of the object’s pose and geometry. We develop an object-agnostic approach for estimation and control that circumvents this need. Our framework directly estimates a set of wrench and motion constraints which it uses to regulate the contact configuration. We use this to reactively manipulate unknown planar polygonal objects in the gravity plane. 
+<p> <b> ICRA 2022: Manipulation of unknown objects via contact configuration regulation. </b> We developed an approach to robotic manipulation of unknown objects through regulation of the object’s contact configuration: the location, geometry, and mode of all contacts between the object, robot, and environment. A contact configuration constrains the forces and motions that can be applied to the object; however, synthesizing these constraints generally requires knowledge of the object’s pose and geometry. We develop an object-agnostic approach for estimation and control that circumvents this need. Our framework directly estimates a set of wrench and motion constraints which it uses to regulate the contact configuration. We use this to reactively manipulate unknown planar polygonal objects in the gravity plane. 
 <a href="https://nddoshi.github.io/assets/pdfs/doshi_icra2022.pdf" target="_blank"><b>[Publication]</b></a>
 </p>
 
@@ -28,7 +28,7 @@ A key challenge in manipulation is designing motions that react intelligently to
 <p>
     <img src="/assets/img/hddp_primitives.png" alt="Rectangle Balance" style="float:left;width:20%;" hspace="25" />
 </p>
-<p> <b> ICRA 2020: Hybrid DDP for planar manipulation primitives. </b> We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primtive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. 
+<p> <b> ICRA 2020: Hybrid DDP for planar manipulation primitives. </b> We use Hybrid Differential Dynamic Programming (HDDP) to plan pose-to-pose primitive manipulations by planning a trajectory over a finite horizon, considering a small number of contact switches, and generating a stabilizing controller. We can plan trajectories from most initial configurations in reasonable time (one to five seconds) for two planar manipulation primitives: pushing and pivoting. The success of our approach is contingent on the fact that while ability to select and switch contact locations is key to the success of these primitives, only one to two contact location switches are needed to converge from most initial configurations. 
 <!-- <br> -->
 <a href="https://nddoshi.github.io/assets/pdfs/doshi_icra2020.pdf"
  target="_blank"><b>[Publication]</b></a> 
@@ -43,7 +43,7 @@ A key challenge in manipulation is designing motions that react intelligently to
 <h3 style="text-align:center;"> Closed-loop locomotion
 of centimeter-scale legged robots  </h3>
 <br>
-Planning locomotion strategies for centimeter-scale legged robots is challenging due to the limited availibity of on-board computation. In my work, I develop high fidelity robot models and high accuracy trajectory optimization techniques for offline planning of realistic locomotion plan that can be tracked with simple on-board controllers.
+Planning locomotion strategies for centimeter-scale legged robots is challenging due to the limited availability of on-board computation. In my work, I develop high fidelity robot models and high accuracy trajectory optimization techniques for offline planning of realistic locomotion plan that can be tracked with simple on-board controllers.
 
 <br>
 
@@ -53,7 +53,7 @@ Planning locomotion strategies for centimeter-scale legged robots is challenging
 
 <p> <b> ICRA 2021, Residual Model Learning for Microrobot Control </b>
 
- A majority of microrobots are constructed using compliant materials that are difficult to model analytically. Challenges in data collection on microrobots and large errors between simulated models and real robots make current model-based learning and sim-to-real transfer methods difficult to apply. We propose a novel framework residual model learning (RML) that leverages approximate models to substantially reduce the sample complexity associated with learning an accurate robot model. We show that using RML, we can learn a model of the Harvard Ambulatory MicroRobot (HAMR) using just 12 seconds of passively collected interaction data. The learned model is accurate enough to be leveraged as "proxy-simulator" for learning walking and turning behaviors using model-free reinforcement learning algorithms.
+ A majority of microrobots are constructed using compliant materials that are difficult to model analytically. Challenges in data collection on microrobots and large errors between simulated models and real robots make current model-based learning and sim-to-real transfer methods difficult to apply. We propose a novel framework residual model learning (RML) that leverages approximate models to substantially reduce the sample complexity associated with learning an accurate robot model. We show that using RML, we can learn a model of the Harvard Ambulatory MicroRobot (HAMR) using just 12 seconds of passively collected interaction data. The learned model is accurate enough to be leveraged as a "proxy-simulator" for learning walking and turning behaviors using model-free reinforcement learning algorithms.
 <a href="https://nddoshi.github.io/assets/pdfs/gruenstein_icra2021.pdf" target="_blank"><b>[Publication]</b></a> 
 <a href="https://www.youtube.com/watch?time_continue=1&v=rwsz5f2Yp8g&feature=emb_logo" target="_blank"><b> [Video]</b></a>
 </p>
@@ -62,7 +62,7 @@ Planning locomotion strategies for centimeter-scale legged robots is challenging
 <img src="/assets/img/Intro-Fig_increasedexposure.png" alt="hamr-jump" style="float:left;width:30%;" hspace="10" vspace="10"/>
 </p>
 <p>
-<b>RSS 2018, IJRR 2019: Contact-implicit trajectory optimization for a centimeter-scale quadrupedal robot. </b> We developed a framework for systematically modeling, planning, and controlling centimeter-scale legged robots. This involved building a three-dimensional dynamic model of a millmeter-scale quadruped and developing a second-order contact-implicit trajectory optimization method to generate feasible whole-body locomotion plans for this robot. Our method is used to plan periodic gaits at multiple stride frequencies and on various surfaces. These gaits achieve high per-cycle velocities, including a maximum of 10.87 mm/cycle, which is 33% faster than previously measured for this robot. We also plan and execute a vertical jump of 9.96 mm, which is 78% of the robot’s body height.
+<b>RSS 2018, IJRR 2019: Contact-implicit trajectory optimization for a centimeter-scale quadrupedal robot. </b> We developed a framework for systematically modeling, planning, and controlling centimeter-scale legged robots. This involved building a three-dimensional dynamic model of a centimeter-scale quadruped and developing a second-order contact-implicit trajectory optimization method to generate feasible whole-body locomotion plans for this robot. Our method is used to plan periodic gaits at multiple stride frequencies and on various surfaces. These gaits achieve high per-cycle velocities, including a maximum of 10.87 mm/cycle, which is 33% faster than previously measured for this robot. We also plan and execute a vertical jump of 9.96 mm, which is 78% of the robot’s body height.
  <a href="https://nddoshi.github.io/assets/pdfs/doshi_rss2018.pdf" target="_blank"><b>[RSS Publication]</b></a> 
 <a href="https://nddoshi.github.io/assets/pdfs/manchester_ijrr2019.pdf" target="_blank"><b>[IJRR Publication]</b></a> 
 <a href="https://www.youtube.com/watch?v=fg5MiyJ7dXw&ab_channel=HarvardAgileRoboticsLab" target="_blank"><b> [Video]</b></a>
@@ -81,7 +81,7 @@ Planning locomotion strategies for centimeter-scale legged robots is challenging
 <!-- ########################## Entry 2 ############################# -->
 
 
-<h3 style="text-align:center;"> Switchable adhesion for robot end-effectors </h3>
+<h3 style="text-align:center;"> Controlling contact-interactions via mechanism design </h3>
 
 <br>
 Enforcing a sequence of planned motions can be challenging under model uncertainty and with limited sensing. My research uses switchable adhesion to enforce the planned contact-state (e.g., sticking versus sliding) during locomotion and manipulation.
