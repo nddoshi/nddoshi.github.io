@@ -6,7 +6,7 @@ title: Research
 <h1 style="text-align:center;"> Research </h1>
 
  <font face="arial" color="black">
-<p> My research is focused on developing synergistic mechanical and algorithmic solutions that allow robots to make <b>purposeful and reliable </b> with contact real-world objects and surfaces. To this end, I have predominantly focused on solving problems in robotic manipulation and locomotion, using techniques from dynamics/mechanics, control, optimization, mechanical design, and machine learning. </p>
+<p> My research is focused on developing synergistic mechanical and algorithmic solutions that allow robots to make <b>purposeful and reliable </b> contact with real-world objects and surfaces. To this end, I have predominantly focused on solving problems in robotic manipulation and locomotion, using techniques from dynamics/mechanics, control, optimization, mechanical design, and machine learning. </p>
 
 <hr>
 <!-- ########################## Entry 0 ############################# -->
