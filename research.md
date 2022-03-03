@@ -21,7 +21,8 @@ A key challenge in manipulation is designing motions that react intelligently to
 </p>
 
 <p> <b> ICRA 2022: Manipulation of unknown objects via contact configuration regulation. </b> We develoed an approach to robotic manipulation of unknown objects through regulation of the object’s contact configuration: the location, geometry, and mode of all contacts between the object, robot, and environment. A contact configuration constrains the forces and motions that can be applied to the object; however, synthesizing these constraints generally requires knowledge of the object’s pose and geometry. We develop an object-agnostic approach for estimation and control that circumvents this need. Our framework directly estimates a set of wrench and motion constraints which it uses to regulate the contact configuration. We use this to reactively manipulate unknown planar polygonal objects in the gravity plane. 
-<a href="https://nddoshi.github.io/assets/pdfs/doshi_icra2022.pdf" target="_blank"><b>[Publication]</b></a>
+<a href="http://arxiv.org/abs/2203.01203" target="_blank"><b>[Publication]</b></a>
+<a href="https://www.youtube.com/watch?v=TDXcxhZuLuY" target="_blank"><b> [Video]</b></a> 
 </p>
 
 
