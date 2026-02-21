@@ -9,18 +9,28 @@ title: Research
 <p> My research is focused on developing synergistic mechanical and algorithmic solutions that allow robots to make <b>purposeful and reliable </b> contact with real-world objects and surfaces. To this end, I have predominantly focused on solving problems in robotic manipulation and locomotion, using techniques from dynamics/mechanics, control, optimization, mechanical design, and machine learning. </p>
 
 <hr>
+
+
 <!-- ########################## Entry 0 ############################# -->
 
 
 <h3 style="text-align:center;"> Planning and executing contact-rich manipulation</h3>
 <br>
-A key challenge in manipulation is designing motions that react intelligently to unexpected perturbations and changes in the environment. My research uses  mechanics, trajectory optimization, and estimation/control theory to develop reactive manipulation primitives that can be sequenced to achieve complex motions.
-
+A key challenge in manipulation is designing motions that react intelligently to unexpected perturbations and changes in the environment. My research uses mechanics, trajectory optimization, and estimation/control theory to develop reactive manipulation primitives that can be sequenced to achieve complex motions.
+<br>
 <p>
-    <img src="/assets/img/contact-config-regulation.png" alt="Rectangle_Balance" style="float:right;width:30%;" hspace="25"/>
+    <img src="/assets/img/TRO_Stow_System.png" alt="Robotic Packing in Fabric Pods" style="float:left;width:30%;" hspace="25"/>
 </p>
 
-<p> <b> ICRA 2022: Manipulation of unknown objects via contact configuration regulation. </b> We develoed an approach to robotic manipulation of unknown objects through regulation of the object’s contact configuration: the location, geometry, and mode of all contacts between the object, robot, and environment. A contact configuration constrains the forces and motions that can be applied to the object; however, synthesizing these constraints generally requires knowledge of the object’s pose and geometry. We develop an object-agnostic approach for estimation and control that circumvents this need. Our framework directly estimates a set of wrench and motion constraints which it uses to regulate the contact configuration. We use this to reactively manipulate unknown planar polygonal objects in the gravity plane. 
+<p><b>[In Review] Stow: Robotic Packing of Items into Fabric Pods.</b> A robotic stowing system capable of autonomously placing a wide variety of items into densely packed fabric pods — a task that has previously resisted full automation in large-scale e-commerce fulfillment. The system tackles uncertainties in object geometry and pose, occluded visual observations, contact-rich interactions with soft boundaries, and strict throughput and reliability targets. Key contributions include compliant end-effector design, robust perception modules for detection and pose estimation in cluttered scenes, task and motion planning strategies that balance packing efficiency with success probability, and control policies for safe and reliable execution. Deployed in a real warehouse, the system has performed over 500,000 successful stow operations, achieving packing density and speed comparable to human workers while operating safely in proximity to humans.
+<a href="https://arxiv.org/abs/2505.04572" target="_blank"><b>[Publication]</b></a>
+</p>
+
+<p>
+<img src="/assets/img/contact-config-regulation.png" alt="Rectangle_Balance" style="float:right;width:30%;" hspace="25"/>
+</p>
+
+<p> <b> [ICRA 2022] Manipulation of unknown objects via contact configuration regulation. </b> We develoed an approach to robotic manipulation of unknown objects through regulation of the object’s contact configuration: the location, geometry, and mode of all contacts between the object, robot, and environment. A contact configuration constrains the forces and motions that can be applied to the object; however, synthesizing these constraints generally requires knowledge of the object’s pose and geometry. We develop an object-agnostic approach for estimation and control that circumvents this need. Our framework directly estimates a set of wrench and motion constraints which it uses to regulate the contact configuration. We use this to reactively manipulate unknown planar polygonal objects in the gravity plane. 
 <a href="http://arxiv.org/abs/2203.01203" target="_blank"><b>[Publication]</b></a>
 <a href="https://www.youtube.com/watch?v=TDXcxhZuLuY" target="_blank"><b> [Video]</b></a> 
 </p>
